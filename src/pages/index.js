@@ -1,17 +1,18 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import styled, {createGlobalStyle} from "styled-components"
+
+const StyledWrapper = styled.div`
+width: 100%;
+height: 100vh;
+background-color: red;
+`
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </Layout>
+<StyledWrapper>
+<h1>Hi people</h1>
+</StyledWrapper>
 )
 
 export default IndexPage
