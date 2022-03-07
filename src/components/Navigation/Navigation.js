@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const NavigationWrapper = styled.ul`
   padding: 0;
   list-style: none;
-  color: white;
+  color: #1b201f;
   font-weight: 700;
   display: flex;
 `
@@ -17,7 +17,6 @@ const NavItem = styled.li`
     position: absolute;
     content: "";
     display: block;
-    height: 100%;
     width: 2px;
     background: white;
   }
@@ -29,9 +28,9 @@ const NavItem = styled.li`
 
 const Navigation = () => (
   <NavigationWrapper>
-    <NavItem>wfefwedew</NavItem>
-    <NavItem>wedcwcwe</NavItem>
-    <NavItem>cewcwehhgf</NavItem>
+    <NavItem>Technology stack</NavItem>
+    <NavItem>My projects</NavItem>
+    <NavItem>About me</NavItem>
   </NavigationWrapper>
 )
 
